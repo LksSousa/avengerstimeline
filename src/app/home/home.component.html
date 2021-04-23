@@ -1,0 +1,15 @@
+<body class="container-fluid">
+    <div class="row">
+        <div class="textandbutton col-12">
+            <h1>Linha do tempo dos Vingadores</h1>
+            <section>
+                <div class="button-row">
+                  <button mat-button (click)="exibirLista()">Fase 1</button>
+                </div>
+            </section>
+            <div *ngIf="exibeLista">
+                <avg-avglist></avg-avglist>
+            </div>
+        </div>
+    </div>
+</body>
